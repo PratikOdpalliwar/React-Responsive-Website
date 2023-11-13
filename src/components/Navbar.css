@@ -42,3 +42,11 @@ img{
 align-content: center;
 align-items: center;
 }
+
+/* .hamburger{
+    visibility: hidden;
+} */
+
+.hamburder-nav{
+z-index: 2;
+}

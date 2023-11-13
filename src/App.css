@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
-.nav{
-    display: block;
+/* Home{
+    border: 30px solid black;
+}
+
+.navbar{
+    z-index: -1;
+}
+.bar{
+    z-index: 2;
+} */
+
+.hamburger-menu{
+    z-index: 1;
 }
