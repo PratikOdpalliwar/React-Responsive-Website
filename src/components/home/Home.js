@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -12,23 +12,31 @@ const Home = () => {
 </div>
 
     <div className="container">
-{/* <div className="text-container">
+{/* <div className="text-container1">
         <h1 className="heading1">
             ADVENTURE AWAITS
         </h1>
         <h3 className="heading2">
-            What are You Waiting For
+            Explore The World OF Cars
         </h3>
-        </div>
         <div className="btn-container">
           <button className="btn1">
         Get Started
         </button>
-      
-      <button className="btn2">
-        Watch Trailer img
-      </button>
-      </div> */}
+      </div>
+        </div> */}
+
+        <div className="play">
+     
+<div className="heading">
+  <div>Explore The World </div>
+  <div>Of Cars</div>
+ 
+</div>
+
+        </div>
+
+    
     </div>
 
 
