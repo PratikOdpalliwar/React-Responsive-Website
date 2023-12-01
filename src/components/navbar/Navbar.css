@@ -68,12 +68,13 @@ color: white;
     align-items: center;
     text-align: center;
     height: 3rem;
-    width: 100%;
+    width: 90%;
     cursor: pointer;
     color: white;
     margin: 5px;
 }
-.item :hover{ 
+.item:hover{ 
+
     border-bottom: 5px solid red;
     transition: 0.1s ease-in;
 }

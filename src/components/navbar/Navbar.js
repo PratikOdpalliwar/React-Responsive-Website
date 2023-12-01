@@ -1,24 +1,26 @@
 import React from 'react'
 import "./Navbar.css"
-import { Link } from 'react-router-dom';
+ import { Link} from 'react-router-dom';
 import {useState} from "react";
+
 
 
 
 const Navbar = () => {
 
   const [click, setClick]= useState(false);
-  // const [isActive, setIsActive] = useState(false);
   
   const onHandleClick =()=>{
     setClick(!click)
-    // setIsActive(!isActive);
   }
 
 
 
   return (
-    <>
+    
+<>
+
+  
  <header className="header">
     <div className="logo">
     FindMyCar <Link to="/" className='navbar-logo'><img src="img.png" alt="Logo" /></Link>
@@ -28,9 +30,17 @@ const Navbar = () => {
    className= {click ? "mobile-nav-menu" : "nav"}
    >
 
-       <ul className="item">Home</ul> 
-        <ul className="item">Services</ul>
-        <ul className="item">Products</ul>
+<ul className="item">
+  Home</ul> 
+
+        <ul className="item">
+          Services
+          </ul>
+        
+        <ul className="item">
+      Products
+        </ul>
+        
         <button className="btn">SIGN UP</button>
       
 </div>
@@ -39,8 +49,10 @@ const Navbar = () => {
 <i class={click? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
 </div> 
 
-    </header>     
+    </header> 
+  
     </>
+  
 );
 }
 
